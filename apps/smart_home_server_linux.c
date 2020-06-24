@@ -745,6 +745,7 @@ main(void)
   /* if no latency is needed then remove the next line */
   oc_core_set_latency(240);
 
+  oc_set_mtu_size(1232);
 #ifdef OC_STORAGE
   oc_storage_config("./smart_home_server_linux_creds");
 #endif /* OC_STORAGE */
